@@ -16,7 +16,10 @@ public enum Planet {
 
     URANUS(8.686e+25, 2.5559e7),
 
-    NEPTUNE(1.024e+26, 2.4746e7);
+    NEPTUNE(1.024e+26, 2.4746e7),
+
+    PLUTO(1.303e+22, 1.188e6);
+
 
     private final double mass; // in kilograms
 
