@@ -9,6 +9,8 @@ public class AnimalTest {
         Vet marley = new Vet();
 
         bob.takePetsToVet(marley);
+        bob.playWithPets();
         x.sleep();
     }
+
 }

@@ -1,7 +1,7 @@
 package vet;
 
 public class Vet {
-    public void giveShotTo(Animal animal){
+    public void giveShotTo(wildAnimal animal){
         animal.makeNoise();
 
     }

@@ -1,10 +1,10 @@
 package vet;
 
 public class PetOwner {
-    protected Animal firstPet;
-    protected Animal secondPet;
+    protected WildAnimalPet firstPet;
+    protected WildAnimalPet secondPet;
 
-    public PetOwner(Animal firstPet, Animal secondPet) {
+    public PetOwner(WildAnimalPet firstPet, WildAnimalPet secondPet) {
         this.firstPet = firstPet;
         this.secondPet = secondPet;
     }
@@ -13,5 +13,10 @@ public class PetOwner {
         vet.giveShotTo(firstPet);
         vet.giveShotTo(secondPet);
 
+    }
+
+    public void playWithPets(){
+        firstPet.play();
+        secondPet.play();
     }
 }
